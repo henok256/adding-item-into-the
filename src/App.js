@@ -38,11 +38,11 @@ const App = () => {
         </button>
       </div>
  
-      <ul>
+      <ol>
         {list.map((item) => (
           <li key={item.id}>{item.name}</li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 };
